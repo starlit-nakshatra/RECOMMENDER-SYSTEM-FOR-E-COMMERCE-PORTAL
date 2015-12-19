@@ -1,0 +1,2 @@
+{"rating": [], "price": ["from ", "11,500.00"], "link": ["http://www.amazon.in/Karbonn-A20-karbonA20/dp/B00LIWHKDO/ref=sr_1_417?s=electronics&ie=UTF8&qid=1427298244&sr=1-417&keywords=mobile"], "image": ["https://images-eu.ssl-images-amazon.com/images/I/31zbBMQix6L._AA160_.jpg"], "title": ["karbonA20"]},
+-1

@@ -1,0 +1,19 @@
+Levenhstien:
+
+snapdeal:
+Lenovo A 70 mobile 
+
+Flipkart:
+lenovo a70
+
+After appling edit distance algorithm:
+By considering:
+1:) DELETE OPERATION
+2:) SUBSTITUTION OPERATION
+3:) INSERT OPERATION
+therefore count comes out to be
+(count>0)
+
+if we consider only SUBSTITUION OPERATION:
+then count comes nearly equal to 0
+accuracy around = 50%

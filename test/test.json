@@ -1,0 +1,20 @@
+[{
+    "getpoolstatus": {
+        "version": "1.0.0",
+        "runtime": 16.618967056274,
+        "data": {
+            "pool_name": "21 Coin Pool @ Luckyminers.com",
+            "hashrate": 485426748,
+            "efficiency": 98.1,
+            "workers": 14,
+            "currentnetworkblock": 12025,
+            "nextnetworkblock": 12026,
+            "lastblock": 12023,
+            "networkdiff": 58954.60268219,
+            "esttime": 521.61956775542,
+            "estshares": 241478052.58625,
+            "timesincelast": 427,
+            "nethashrate": 485426748
+        }
+    }
+}]

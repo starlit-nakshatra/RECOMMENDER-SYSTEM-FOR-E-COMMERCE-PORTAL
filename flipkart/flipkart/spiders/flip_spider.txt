@@ -1,0 +1,19 @@
+from scrapy.spider import Spider
+from scrapy.selector import Selector
+from tutorial.items import Flipkart
+class FlipkartSpider(scrapy.Spider):
+    name = "flip"
+    allowed_domains = ["flipkart.com"]
+    start_urls = [
+        "http://www.flipkart.com/mobiles/pr?sid=tyy,4io&  otracker=ch_vn_mobile_filter_Mobile%20Brands_All"
+    ]
+
+    def parse(self, response):
+		sel = Selector(response)
+		sites = sel.xpath('//div[@class="pu-details lastUnit"]')
+        items = []
+		for site in sites:
+			item = Flipkart()
+			item['title'] = site.xpath('div[1]/a/text()').extract()
+			items.append(item)
+		return items**
